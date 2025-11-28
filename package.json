@@ -9,8 +9,9 @@
     "dist"
   ],
   "scripts": {
+    "dev": "tsup src/index.ts --watch",
     "build": "tsup",
-    "dev": "tsup src/index.ts --watch"
+    "release": "npm version patch && git push --follow-tags"
   },
   "keywords": [
     "eruda",
@@ -22,6 +23,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "conventional-changelog-cli": "^5.0.0",
     "tsup": "^7.0.0",
     "typescript": "^5.2.2"
   },

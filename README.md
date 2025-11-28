@@ -93,7 +93,7 @@ erudaPluginInject({
 
   2. 回放效果
 
-     ![alt text](https://p5.ssl.qhimg.com/t110b9a93017a55919ac108668d.png)
+     ![回放效果](https://p5.ssl.qhimg.com/t110b9a93017a55919ac108668d.png)
 
 ### 反馈
 
