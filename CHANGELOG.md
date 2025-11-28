@@ -1,3 +1,12 @@
+## 1.2.10 (2025-11-28)
+
+
+### Bug Fixes
+
+* 🐛 chage github workflow ([7d18f32](https://github.com/zonghua2016/eruda-plugin-inject/commit/7d18f32a8429f5b2146f6c3fa638a218221f0fce))
+
+
+
 ## 1.2.9 (2025-11-28)
 
 
