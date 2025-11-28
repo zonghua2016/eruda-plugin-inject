@@ -1,12 +1,9 @@
 name: Publish to npm
 
 on:
-  workflow_dispatch:
-    inputs:
-      version:
-        description: "Version to release (e.g. 1.0.0)"
-        required: true
-        type: string
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -32,7 +29,7 @@ jobs:
         run: npm install
 
       - name: Bump version
-        run: npm version ${{ inputs.version }} --no-git-tag-version
+        run: npm version patch --no-git-tag-version
 
       - name: Generate Changelog
         run: npx conventional-changelog -p angular -i CHANGELOG.md -s
@@ -42,15 +39,16 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add .
-          git commit -m "chore(release): v${{ inputs.version }}"
+          VERSION=$(node -p "require('./package.json').version")
+          git commit -m "chore(release): v$VERSION"
 
       - name: Push changes
         run: git push
 
       - name: Create Git tag
         run: |
-          git tag v${{ inputs.version }}
-          git push origin v${{ inputs.version }}
+          git tag vVERSION
+          git push origin vVERSION
 
       - name: Publish to npm
         run: npm publish --access public --provenance
