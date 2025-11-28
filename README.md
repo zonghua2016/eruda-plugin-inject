@@ -105,5 +105,5 @@ erudaPluginInject({
 
 ### 反馈
 
-<p>Github: <a href="https://github.com/zonghua2016">zonghua2016</a></p>
-<p>邮箱: <a href="mailto:2280314971@qq.com>">2280314971@qq.com</a></p>
+<p>Github issues: <a href="https://github.com/zonghua2016/eruda-plugin-inject/issues">eruda-plugin-inject</a></p>
+<p>Email: <a href="mailto:2280314971@qq.com>">2280314971@qq.com</a></p>
