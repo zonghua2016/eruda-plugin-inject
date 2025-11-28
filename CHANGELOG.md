@@ -1,3 +1,12 @@
+## 1.2.11 (2025-11-28)
+
+
+### Bug Fixes
+
+* 🐛 change github workflow ([b406f97](https://github.com/zonghua2016/eruda-plugin-inject/commit/b406f975b9a4454d91058f31b6aa8748a47c7440))
+
+
+
 ## 1.2.10 (2025-11-28)
 
 
