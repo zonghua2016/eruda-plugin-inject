@@ -480,9 +480,6 @@ export class UIManager {
       urlContainer.appendChild(urlText);
       urlContainer.appendChild(copyButton);
 
-      console.log(111, modalBody, urlContainer, urlText);
-
-
       // 插入到modal-body的开头，这样链接会最先显示
       modalBody.insertBefore(urlContainer, modalBody.firstChild);
     };

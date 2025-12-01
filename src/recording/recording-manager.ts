@@ -16,7 +16,7 @@ export class RecordingManager {
   private recordId: string | null = null;
   private recordingStartTime: number | null = null;
 
-  private constructor() {}
+  private constructor() { }
 
   static getInstance(): RecordingManager {
     if (!RecordingManager.instance) {
@@ -80,6 +80,7 @@ export class RecordingManager {
       },
       // Canvas录制选项
       recordCanvas: true, // 确保录制canvas内容以捕捉画笔绘制
+      recordCrossOriginIframes: true, // 支持跨域 iframe 的录制
       collectFonts: true, // 收集字体信息以更好重现
       // 其他录制选项
       recordAfter: 'DOMContentLoaded', // 在DOM内容加载完成后开始录制

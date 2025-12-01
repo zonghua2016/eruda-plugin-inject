@@ -1,7 +1,6 @@
 ## eruda-plugin-inject
 
 <p align="center">
-
   <img src="https://img.shields.io/npm/v/eruda-plugin-inject" alt="npm version">
   <img src="https://img.shields.io/npm/dm/eruda-plugin-inject" alt="npm downloads">
   <img src="https://img.shields.io/github/actions/workflow/status/zonghua2016/eruda-plugin-inject/publish.yml" alt="build status">
