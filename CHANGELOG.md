@@ -1,3 +1,12 @@
+## 1.2.15 (2025-12-01)
+
+
+### Bug Fixes
+
+* 🐛 去掉日志&修改主页信息 ([be8abdb](https://github.com/zonghua2016/eruda-plugin-inject/commit/be8abdba8740f2e499c487075ee7b7e40fce4965))
+
+
+
 ## 1.2.14 (2025-11-28)
 
 
